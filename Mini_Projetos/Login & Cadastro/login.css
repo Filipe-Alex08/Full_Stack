@@ -1,0 +1,98 @@
+:root {
+    --login--prymary-color: #3a68b7;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--login--prymary-color);
+}
+
+.form {
+    width: 80%;
+    max-width: 32rem;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .3) .5rem, white .5rem);
+}
+
+.form_fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: .25em;
+    padding: 1rem;
+}
+
+.form_title {
+    font-weight: 300;
+    font-size: 2rem;
+    color: var(--login--prymary-color);
+    padding-top: 1.5rem;
+}
+
+.form_label {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.form_input {
+    padding: .5em 0;
+    font-size: 1rem;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid var(--login--prymary-color);
+    margin-bottom: 1rem;
+    outline: none;
+    transition: padding-left .1s;
+}
+
+.form_input:focus {
+    outline: 2px solid var(--login--prymary-color);
+    padding-left: 0.2rem;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    padding: .8rem 1.2rem;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn_primary {
+    background-color: var(--login--prymary-color);
+    color: white;
+}
+
+.btn_seconder {
+    color: var(--login--prymary-color);
+}
+
+.form_action {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.form_action_aside {
+    font-size: .85rem;
+    flex-grow: 1;
+    text-align: right;
+    text-decoration: none;
+    color: red;
+}
+
+.form_action_p {
+    font-size: .85rem;
+    flex-grow: 1;
+    text-align: right;
+    text-decoration: none;
+}
