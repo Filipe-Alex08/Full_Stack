@@ -1,0 +1,89 @@
+JavaScript
+Criei(Criarei) 100 desafios que estarei realizando e fazendo com o intuito não só de adquirir conhecimento, mas também comprova-lo e também para me manter atualizado.
+As questão em si foram pesquisadas na internet (os topicos para os desafios) e em seguida elaborei junto ao ChatGPT para criar desafios relaciodados aos temas.
+
+Mas caso você tenham algum desafio para acrescentar a minha lista ou tenha uma oportunidade para mim, entrem em contato comigo no:
+- LinkedIn: Filipe.alex08
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios Básicos:
+1) Crie uma função que receba dois números como argumentos e retorne a soma deles.
+2) Faça uma função que receba um número e retorne true se for par e false se for ímpar.
+3) Crie uma função que receba um array de números e retorne o maior número.
+4) Faça uma função que receba uma string e retorne a mesma string em maiúsculas.
+5) Crie uma função que receba um array de strings e retorne um único string com todas as strings concatenadas.
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios Intermediários:
+1) Faça uma função que receba uma lista de números e retorne a média deles.
+2) Crie uma função que receba uma lista de números e retorne apenas os números pares.
+3) Faça uma função que receba uma lista de números e retorne uma lista nova com os números ordenados de forma crescente.
+4) Crie uma função que receba uma lista de strings e retorne outra lista apenas com as strings que têm mais de 5 caracteres.
+5) Faça uma função que receba uma lista de números e retorne o produto de todos eles.
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios Avançados:
+1) Crie uma função que receba um número como argumento e retorne o fatorial desse número.
+2) Faça uma função que receba um número e retorne true se ele for primo, false caso contrário.
+3) Crie uma função que receba uma lista de números e retorne o segundo menor número.
+4) Faça uma função que receba um array de strings e retorne o maior string.
+5) Crie uma função que receba um número e retorne true se ele for um número de Fibonacci, false caso contrário.
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de Strings:
+1) Faça uma função que receba uma string e retorne a mesma string invertida.
+2) Crie uma função que receba uma string e retorne a quantidade de vogais presentes.
+3) Faça uma função que receba uma frase e retorne outra frase com todas as palavras em ordem reversa.
+4) Crie uma função que receba uma string e retorne true se for um palíndromo, false caso contrário.
+5) Faça uma função que receba duas strings e retorne true se forem anagramas, false caso contrário.
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de Arrays:
+1) Crie uma função que receba um array de números e retorne a soma dos números pares.
+2) Faça uma função que receba um array de números e retorne o terceiro maior número.
+3) Crie uma função que receba um array de números e retorne outro array apenas com os números únicos.
+4) Faça uma função que receba um array de números e retorne um objeto com a contagem de cada número.
+5) Crie uma função que receba dois arrays de números e retorne um novo array apenas com os números que estão em ambos os arrays.
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de Objetos:
+1) Faça uma função que receba um objeto com as propriedades "largura" e "altura" e retorne o cálculo da área.
+2) Crie uma função que receba um objeto com informações de um livro e retorne uma string formatada com essas informações.
+3) Faça uma função que receba um objeto com nome, idade e cidade e retorne uma string com essas informações formatadas.
+4) Crie uma função que receba um objeto com informações de um produto e retorne o preço com desconto, se aplicável.
+5) Faça uma função que receba um objeto com informações de um aluno (nome, notas) e retorne se ele foi aprovado ou reprovado, considerando a média 7.
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de DOM (Document Object Model):
+1) Faça um programa que ao clicar em um botão, mude a cor de um elemento na página.
+2) Crie um formulário de cadastro que, ao ser preenchido e submetido, exiba as informações em um novo elemento na página.
+3) Faça um programa que adicione um novo item em uma lista ao clicar em um botão.
+4) Crie uma calculadora simples que permita ao usuário fazer operações básicas (soma, subtração, multiplicação, divisão) ao clicar em botões.
+5) Faça um programa que ao digitar em um campo de texto, exiba o texto digitado em outro elemento da página em tempo real.
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de Eventos:
+1) Faça um programa que ao passar o mouse sobre um elemento, exiba uma mensagem.
+2) Crie uma galeria de imagens que ao clicar em uma miniatura, exiba a imagem em tamanho grande.
+3) Faça um programa que ao pressionar uma tecla, exiba o código da tecla pressionada.
+4) Crie um botão que ao ser clicado, aumente o tamanho de um elemento na página.
+5) Faça um programa que ao rolar a página, exiba uma mensagem ao atingir determinada posição.
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de AJAX (Asynchronous JavaScript and XML):
+1) Faça um programa que ao clicar em um botão, faça uma requisição AJAX para buscar informações em uma API e exiba na página.
+2) Crie um formulário de busca que, ao ser preenchido e submetido, faça uma requisição AJAX para buscar resultados e exiba na página.
+3) Faça um programa que ao carregar a página, faça uma requisição AJAX para carregar conteúdo dinamicamente.
+4) Crie um sistema de comentários que permita ao usuário adicionar novos comentários sem recarregar a página, utilizando AJAX.
+5) Faça um programa que ao clicar em um botão, faça uma requisição AJAX para enviar dados para um servidor e exiba a resposta na página.
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de ES6+ (ECMAScript 2015+):
+1) Crie uma função arrow que receba dois números como argumentos e retorne a soma deles.
+2) Faça uma função que utilize template literals para retornar uma mensagem formatada com variáveis.
+3) Crie uma função que utilize destructuring para extrair propriedades de um objeto.
+4) Faça uma função que utilize spread operator para combinar arrays.
+5) Crie uma classe que represente um carro com métodos para ligar, desligar e acelerar.
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de Promises e Async/Await:
+1) Faça uma função que retorne uma Promise que resolve após um certo tempo e retorne uma mensagem.
+2) Crie uma função que utilize Promise.all para fazer múltiplas requisições AJAX e retornar os resultados juntos.
+3) Faça uma função que utilize async/await para fazer uma requisição AJAX e exibir o resultado na página.
+4) Crie um programa que utilize async/await para fazer uma
+5) Faça uma função que simule um pedido de entrega que leva um tempo variável e retorne o status da entrega.
+__________________________________________________________________________________________________________________________________________________________________________________________
+
+_________________________________________________________________________________________________________________________________________________________________________________________ _
+
+__________________________________________________________________________________________________________________________________________________________________________________________

@@ -1,0 +1,97 @@
+SQL
+Criei 100 desafios que estarei realizando e fazendo com o intuito não só de adquirir conhecimento, mas também comprova-lo e também para me manter atualizado.
+Tive algumas dificuldades em encontrar topicos de SQL, portanto segui diretamente com o ChatGPT para criar os desafios. Portanto criei apenas 70 desafios, mas pretendo acrescentar o restante conforme meu conhecimento em SQL for aumentando.
+
+Mas caso você tenham algum desafio para acrescentar a minha lista ou tenha uma oportunidade para mim, entrem em contato comigo no:
+- LinkedIn: Filipe.alex08
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios Básicos:
+1) Crie uma tabela "Alunos" com colunas para Nome, Idade e Nota.
+2) Insira alguns registros na tabela "Alunos".
+3) Selecione todos os registros da tabela "Alunos".
+4) Selecione apenas os nomes e idades dos alunos.
+5) Selecione os alunos com nota maior que 7.
+6) Atualize a nota de um aluno específico.
+7) Delete um aluno da tabela.
+8) Crie uma tabela "Professores" com colunas para Nome, Especialidade e Salário.
+9) Faça um INNER JOIN entre as tabelas "Alunos" e "Professores".
+10) Crie uma tabela "Disciplinas" com colunas para Nome e Carga Horária.
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios Intermediários:
+1) Insira alguns registros na tabela "Professores".
+2) Selecione os alunos que têm um professor com especialidade em "Matemática".
+3) Atualize o salário de todos os professores em 10%.
+4) Faça um LEFT JOIN entre as tabelas "Alunos" e "Disciplinas".
+5) Selecione as disciplinas que têm carga horária maior que 60 horas.
+6) Faça um INNER JOIN entre as tabelas "Alunos", "Professores" e "Disciplinas".
+7) Selecione os alunos que estão matriculados em disciplinas de "História".
+8) Delete todos os professores com salário menor que 3000.
+9) Crie uma tabela "Matriculas" com colunas para Aluno_ID, Disciplina_ID e Data de Matrícula.
+10) Insira algumas matrículas na tabela "Matriculas".
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios Avançados:
+1) Faça um INNER JOIN entre as tabelas "Matriculas", "Alunos" e "Disciplinas" para obter todas as informações.
+2) Selecione os alunos que estão matriculados em mais de 2 disciplinas.
+3) Atualize a nota de um aluno em uma disciplina específica.
+4) Selecione os alunos que não estão matriculados em nenhuma disciplina.
+5) Faça um JOIN entre as tabelas "Alunos" e "Matriculas" para contar quantas disciplinas cada aluno está matriculado.
+6) Selecione os professores que não têm alunos matriculados em suas disciplinas.
+7) Crie uma tabela "Faltas" com colunas para Aluno_ID, Disciplina_ID e Quantidade de Faltas.
+8) Insira algumas faltas na tabela "Faltas".
+9) Selecione os alunos que têm mais de 5 faltas em uma disciplina específica.
+10) Faça um JOIN entre as tabelas "Alunos" e "Faltas" para contar o total de faltas de cada aluno.
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de Consultas Complexas:
+1) Selecione os 3 alunos com as maiores notas.
+2) Selecione as disciplinas em que a média de faltas é maior que 3.
+3) Selecione os professores que têm alunos com média de notas maior que 7.
+4) Selecione os alunos que têm notas acima da média de todas as disciplinas.
+5) Selecione os professores que têm alunos com mais de 5 faltas em média.
+6) Selecione as disciplinas em que todos os alunos tiveram notas acima de 5.
+7) Selecione os alunos que têm a mesma média de notas em duas disciplinas diferentes.
+8) Selecione as disciplinas que têm pelo menos 2 alunos com a mesma nota máxima.
+9) Selecione os alunos que têm a maior quantidade de faltas em uma disciplina específica.
+10) Selecione os professores que têm alunos com a média de notas mais próxima da média geral da escola.
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de Modelagem:
+1) Crie uma tabela "Turmas" com colunas para Turma_ID, Disciplina_ID, Professor_ID e Horário.
+2) Crie uma tabela "Salas" com colunas para Sala_ID, Capacidade e Localização.
+3) Crie uma tabela "Aulas" com colunas para Turma_ID, Sala_ID, Data e Horário.
+4) Insira algumas turmas, salas e aulas nas respectivas tabelas.
+5) Selecione as salas disponíveis para uma determinada data e horário.
+6) Selecione os alunos matriculados em uma turma específica.
+7) Selecione os professores que estão lecionando em uma determinada data e horário.
+8) Selecione as disciplinas que estão sendo ministradas em uma sala específica.
+9) Crie uma tabela "Notas" com colunas para Aluno_ID, Disciplina_ID, Nota e Data de Avaliação.
+10) Insira algumas notas nas tabelas "Notas" e "Aulas".
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de Transações e Indexação
+1) Faça uma transação para matricular um aluno em uma disciplina.
+2) Faça uma transação para lançar faltas para um aluno em uma determinada data.
+3) Crie um índice na tabela "Alunos" para melhorar o desempenho das consultas.
+4) Crie um índice na tabela "Disciplinas" para melhorar o desempenho das consultas.
+5) Faça uma transação para alterar a nota de um aluno e lançar uma falta ao mesmo tempo.
+6) Crie uma transação para remover um aluno e todas as suas matrículas.
+7) Faça uma transação para adicionar uma nova disciplina com todos os seus pré-requisitos.
+8) Crie um índice clusterizado na tabela "Aulas" para otimizar as consultas por data.
+9) Faça uma transação para transferir um aluno de uma turma para outra.
+10) Crie um índice parcial na tabela "Notas" para melhorar o desempenho das consultas por data.
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de Funções e Procedimentos Armazenado
+1) Crie uma função que retorne a média de notas de um aluno em uma disciplina.
+2) Crie um procedimento armazenado que lance faltas para todos os alunos em uma turma.
+3) Crie uma função que calcule a mediana de notas de uma disciplina em um determinado semestre.
+4) Crie um procedimento armazenado que matricule um aluno em todas as disciplinas de um determinado período.
+5) Crie uma função que retorne a lista de alunos que têm notas abaixo da média em todas as disciplinas.
+6) Crie um procedimento armazenado que atualize as notas de todos os alunos em uma disciplina.
+7) Crie uma função que retorne o número total de faltas de um aluno em um determinado período.
+8) Crie um procedimento armazenado que lance automaticamente faltas para alunos ausentes em uma aula.
+9) Crie uma função que retorne o desvio padrão das notas de uma disciplina.
+10) Crie um procedimento armazenado que gere um relatório de desempenho de uma turma.

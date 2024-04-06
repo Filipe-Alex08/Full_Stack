@@ -1,0 +1,142 @@
+Python
+Criei(Criarei) 100 desafios que estarei realizando e fazendo com o intuito não só de adquirir conhecimento, mas também comprova-lo e também para me manter atualizado.
+As questão em si foram pesquisadas na internet (os topicos para os desafios) e em seguida elaborei junto ao ChatGPT para criar desafios relaciodados aos temas.
+
+Mas caso você tenham algum desafio para acrescentar a minha lista ou tenha uma oportunidade para mim, entrem em contato comigo no:
+- LinkedIn: Filipe.alex08
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios Básicos (Dificuldade Aumentada):
+1) Crie um programa que peça ao usuário uma sequência de números separados por vírgula e retorne uma lista com esses números.
+2) Faça um programa que peça ao usuário uma lista de números e retorne uma lista sem os números repetidos.
+3) Crie um programa que receba uma lista de nomes e retorne outra lista apenas com os nomes que começam com uma vogal.
+4) Faça um programa que receba uma lista de strings e retorne a mais longa delas.
+5) Crie um programa que receba uma lista de números e retorne outra lista com apenas os números primos.
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de Strings:
+1) Crie um programa que conte quantas vezes uma palavra específica aparece em uma frase, levando em consideração diferenciação entre maiúsculas e minúsculas.
+2) Faça um programa que receba uma frase e verifique se é um palíndromo, considerando espaços, pontuações e caracteres especiais.
+3) Crie um programa que crie uma criptografia simples para uma mensagem: substitua cada letra por uma letra que esteja 3 posições à frente no alfabeto (considerando o wrap-around do alfabeto, ou seja, 'z' viraria 'c').
+4) Faça um programa que receba uma lista de palavras e retorne um dicionário onde as chaves são as palavras e os valores são a quantidade de vezes que cada palavra aparece.
+5) Crie um programa que receba uma frase e retorne uma nova frase com as palavras em ordem alfabética, mas mantendo as letras de cada palavra na mesma ordem.
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de Listas:
+1) Faça um programa que receba duas listas e retorne uma terceira lista com os elementos que são comuns às duas listas.
+2) Crie um programa que leia duas listas de números e retorne uma lista com os números que são repetidos em ambas as listas.
+3) Faça um programa que remova elementos duplicados de uma lista, mantendo a ordem original dos elementos.
+4) Crie um programa que verifique se uma lista é sublista de outra lista maior.
+5) Faça um programa que embaralhe os elementos de uma lista de maneira aleatória.
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de Loops:
+1) Crie um programa que encontre o maior elemento em uma lista sem usar a função max().
+2) Faça um programa que imprima os números primos entre 1 e 100.
+3) Crie um programa que calcule a soma dos dígitos de um número inteiro.
+4) Faça um programa que imprima os números de Fibonacci até ultrapassar um valor dado pelo usuário.
+5) Crie um programa que calcule a média dos elementos de uma lista sem usar a função sum().
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de Funções
+1) Faça uma função que retorne todos os divisores de um número.
+2) Crie uma função que receba uma lista de palavras e retorne a mais longa.
+3) Faça uma função que receba uma lista de números e retorne uma lista com os números pares.
+4) Crie uma função que receba uma string e retorne uma nova string com cada palavra invertida.
+5) Faça uma função que receba uma lista de números e retorne a mediana dos números.
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de Arquivos
+1) Faça um programa que leia um arquivo texto, conte quantas vezes cada palavra aparece e retorne as 5 palavras mais comuns.
+2) Crie um programa que leia um arquivo CSV, faça algumas operações matemáticas nos dados e salve os resultados em outro arquivo CSV.
+3) Faça um programa que leia um arquivo JSON contendo informações de alunos e retorne a média das notas.
+4) Crie um programa que leia um arquivo XML, extraia informações relevantes e salve em outro formato.
+5) Faça um programa que leia um arquivo Excel, calcule a soma de uma coluna e insira o resultado em outra planilha.
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de POO
+1) Crie uma classe "Produto" com métodos para calcular o preço com desconto e adicionar informações adicionais.
+2) Faça uma classe "Triângulo" que tenha métodos para verificar se é um triângulo válido e calcular a área.
+3) Crie uma classe "Rede Social" que permita adicionar amigos, postar mensagens e ver o feed de notícias.
+4) Faça uma classe "Baralho" que possa embaralhar as cartas e distribuir mãos.
+5) Crie um programa que simule um sistema de compra online utilizando as classes que você criou.
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de APIs e Web
+1) Faça um programa que crie um servidor RESTful básico para manipulação de dados.
+2) Crie um programa que faça autenticação OAuth em uma API de terceiros.
+3) Faça um programa que use uma API de previsão do tempo para fornecer informações personalizadas.
+4) Crie um web scraper que extraia informações de várias páginas e compile em um único arquivo.
+5) Faça um programa que envie mensagens automáticas para grupos do Slack com informações atualizadas.
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de GUI (Dificuldade Aumentada):
+1) Faça um programa com uma GUI que permita ao usuário desenhar formas geométricas.
+2) Crie um aplicativo de gerenciamento de tarefas com uma GUI que permita adicionar, editar e remover tarefas.
+3) Faça um programa com uma GUI que exiba um gráfico em tempo real com dados provenientes de sensores.
+4) Crie um jogo de xadrez com uma interface gráfica que permita jogar contra o computador.
+5) Faça um programa com uma GUI que simule um ambiente de simulação física com objetos e interações.
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de Banco de Dados
+1) Faça um programa que conecte a um banco de dados MySQL e faça operações complexas.
+2) Crie um sistema de gerenciamento de estoque utilizando um banco de dados PostgreSQL.
+3) Faça um programa que utilize um banco de dados SQLite para armazenar e consultar informações de um blog.
+4) Crie um sistema de análise de dados em tempo real utilizando um banco de dados NoSQL como o MongoDB
+5) Faça um programa que utilize um banco de dados Redis para armazenar cache de consultas frequentes.
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de Segurança
+1) Faça um programa que implemente autenticação de dois fatores para um sistema.
+2) Crie um programa que use criptografia assimétrica para troca segura de mensagens.
+3) Faça um programa que simule um ataque de injeção de SQL em uma aplicação vulnerável.
+4) Crie um sistema de detecção de intrusão simples que analise logs em busca de padrões suspeitos.
+5) Faça um programa que use assinaturas digitais para garantir a autenticidade de um arquivo.
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de Matemática Avançada
+1) Crie um programa que calcule a derivada de uma função polinomial.
+2) Faça um programa que resolva uma equação polinomial de grau 3.
+3) Crie um programa que implemente o algoritmo de Newton-Raphson para encontrar raízes de uma equação.
+4) Faça um programa que calcule a integral definida de uma função usando o método do trapézio.
+5) Crie um programa que resolva um sistema de equações não lineares.
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de Machine Learning
+1) Faça um programa que treine um modelo de regressão logística para classificação.
+2) Crie um programa que implemente o algoritmo K-means do zero para clustering.
+3) Faça um sistema de recomendação utilizando uma técnica de filtragem colaborativa avançada.
+4) Crie um programa que treine uma rede neural convolucional para reconhecimento de imagens.
+5) Faça um programa que use o algoritmo de aprendizagem por reforço para treinar um agente em um ambiente simulado.
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de Análise de Dados
+1) Faça um programa que utilize análise de componentes principais (PCA) para redução de dimensionalidade.
+2) Crie um programa que implemente o algoritmo Apriori para mineração de regras de associação.
+3) Faça um programa que utilize técnicas de processamento de linguagem natural para análise de sentimentos avançada.
+4) Crie um sistema de previsão de séries temporais utilizando modelos ARIMA.
+5) Faça um programa que utilize aprendizado não supervisionado para segmentação de clientes em um banco de dados.
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de Jogos
+1) Crie um jogo de estratégia em turnos com combate em um mapa 2D.
+2) Faça um jogo de simulação de vida (como o Conway's Game of Life) com regras personalizadas.
+3) Crie um jogo de RPG text-based com batalhas, inventário e um sistema de progressão.
+4) Faça um jogo de quebra-cabeça baseado em física, onde o jogador deve resolver desafios com objetos interativos.
+5) Crie um jogo de plataforma 2D com física realista e múltiplos níveis.
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de Redes
+1) Faça um programa que implemente um servidor TCP/IP e permita conexões de múltiplos clientes.
+2) Crie um programa que faça análise de tráfego de rede em tempo real.
+3) Faça um programa que implemente um servidor web simples com suporte a múltiplas requisições.
+4) Crie um programa que simule um ataque de negação de serviço (DDoS) em uma rede local.
+5) Faça um programa que implemente um chat criptografado de ponta a ponta utilizando chaves públicas.
+
+__________________________________________________________________________________________________________________________________________________________________________________________
+    Desafios de Testes
+1) Faça testes de hipótese estatística para um conjunto de dados.
+2) Crie testes de regressão para garantir a estabilidade de um sistema em evolução.
+3) Faça testes de usabilidade em uma aplicação web, registrando interações de usuários.
+4) Crie testes de performance para um sistema de processamento em tempo real.
+5) Faça testes de integridade de banco de dados para garantir consistência dos dados.
