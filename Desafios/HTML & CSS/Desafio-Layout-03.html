@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de Layout - 03</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .coluna-fixada {
+            background-color: #f1f1f1;
+            width: 200px;
+            padding: 20px;
+        }
+
+        .coluna-adaptavel {
+            flex: 1;
+            background-color: #e0e0e0;
+            padding: 20px;
+        }
+
+        .tres-colunas {
+            width: 100%;
+            display: flex;
+        }
+
+        .coluna {
+            flex: 1;
+            padding: 20px;
+            background-color: #d0d0d0;
+            margin: 5px;
+        }
+
+        /* Estilos adicionais apenas para melhor visualização */
+        h1 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="coluna-fixada">
+            <h1>Coluna Fixa</h1>
+            <p>Esta coluna tem largura fixa de 200px e seu conteúdo não se moverá ao redimensionar a tela.</p>
+        </div>
+        <div class="coluna-adaptavel">
+            <h1>Coluna Adaptável</h1>
+            <p>Esta coluna se adaptará ao tamanho da tela, ocupando o restante do espaço disponível.</p>
+        </div>
+        <div class="tres-colunas">
+            <div class="coluna">
+                <h1>Coluna 1</h1>
+                <p>Conteúdo da coluna 1.</p>
+            </div>
+            <div class="coluna">
+                <h1>Coluna 2</h1>
+                <p>Conteúdo da coluna 2.</p>
+            </div>
+            <div class="coluna">
+                <h1>Coluna 3</h1>
+                <p>Conteúdo da coluna 3.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
