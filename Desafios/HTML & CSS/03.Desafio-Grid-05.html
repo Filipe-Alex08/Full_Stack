@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout de Página com Grid</title>
+
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+      }
+      
+      header {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .grid-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr; /* Duas colunas: 2/3 para o conteúdo principal e 1/3 para a sidebar */
+        grid-gap: 20px;
+      }
+      
+      .content {
+        background-color: #f9f9f9;
+        padding: 20px;
+      }
+      
+      .sidebar {
+        background-color: #f0f0f0;
+        padding: 20px;
+      }
+      
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Desafio 05 - Grid</h1>
+  </header>
+
+  <div class="grid-container">
+    <div class="content">
+      <h2>Estratégias em um Novo Paradigma Globalizado</h2>
+      <p>Nunca é demais lembrar o peso e o significado destes problemas, uma vez que a execução dos pontos do programa causa impacto indireto na reavaliação dos relacionamentos verticais entre as hierarquias. Neste sentido, a expansão dos mercados mundiais cumpre um papel essencial na formulação dos níveis de motivação departamental.</p>
+    </div>
+
+    <div class="sidebar">
+      <h3>Sidebar</h3>
+      <p>O incentivo ao avanço tecnológico, assim como a execução dos pontos do programa cumpre um papel essencial na formulação das regras de conduta normativas.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Rodapé - © 2024</p>
+  </footer>
+</body>
+</html>
