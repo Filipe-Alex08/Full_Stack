@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 05 - Flexbox</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 1rem;
+            background-color: #f7f7f7;
+        }
+        
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        
+        .image {
+            flex: 1 0 30%; 
+        }
+        
+        .image img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gallery">
+        <div class="image"><img src="https://img.freepik.com/vetores-gratis/scifi-e-papel-de-parede-de-quadro-de-neon-vintage-cibernetico-com-efeito-equalizador_1017-43047.jpg?w=1380&t=st=1712765531~exp=1712766131~hmac=5403de06fa33616d92e48cdc72e75b699b836385256677e0fc91ee6d1ad5d67b" alt="Imagem 1"></div>
+        <div class="image"><img src="https://img.freepik.com/vetores-gratis/castelo-assustador-na-rocha-a-noite-palacio-gotico-assombrado-nas-montanhas-edificio-com-telhados-pontiagudos-janelas-brilhantes-e-morcegos-voando-no-ceu-escuro-casa-do-dracula-da-fantasia-ilustracao-vetorial_107791-4569.jpg?w=1480&t=st=1712765533~exp=1712766133~hmac=64a8b6c61bfb92ed279f365fd527966d29e8941698c295e129defaaff70c79c0" alt="Imagem 2"></div>
+        <div class="image"><img src="https://img.freepik.com/fotos-premium/papel-de-parede-cinematografico-do-espaco-aigenerated_692702-15369.jpg?w=1380" alt="Imagem 3"></div>
+        <div class="image"><img src="https://www.shutterstock.com/shutterstock/photos/2070595583/display_1500/stock-photo-woman-hand-touching-the-metaverse-universe-digital-transformation-conceptual-for-next-generation-2070595583.jpg" alt="Imagem 4"></div>
+        <div class="image"><img src="https://img.freepik.com/fotos-premium/uma-sala-com-uma-mesa-e-varios-monitores-e-uma-grande-janela-que-diz-starcraft-nela_739292-7352.jpg?w=1800" alt="Imagem 5"></div>
+        <div class="image"><img src="https://img.freepik.com/fotos-gratis/colagem-criativa-de-marte_23-2149429562.jpg?t=st=1712765836~exp=1712769436~hmac=464084131453d0404d4e119e283f36e49b0713107c443788bbf303b647644346&w=996" alt="Imagem 6"></div>
+    </div>
+</body>
+</html>

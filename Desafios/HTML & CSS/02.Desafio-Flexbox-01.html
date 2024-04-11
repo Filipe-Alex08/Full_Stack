@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 01 - Flexbox</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            display: flex;
+        }
+        
+        .coluna {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .coluna1 {
+            flex: 1; /* A primeira coluna ocupa todo o espaço disponível */
+            padding-right: 20px; /* Espaçamento entre as colunas */
+        }
+        
+        .coluna2 {
+            width: 200px; /* Largura fixa para a segunda coluna */
+            background-color: #f0f0f0;
+        }
+        
+        .coluna li {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-bottom: 5px; /* Espaçamento entre os itens */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <ul class="coluna coluna1">
+            <li>Coluna 01 - Se adpta</li>
+            <li>Coluna 01 - Se adpta</li>
+            <li>Coluna 01 - Se adpta</li>
+            <li>Coluna 01 - Se adpta</li>
+            <li>Coluna 01 - Se adpta</li>
+        </ul>
+        <ul class="coluna coluna2">
+            <li>Coluna 02 - Não se adpta</li>
+            <li>Coluna 02 - Não se adpta2</li>
+            <li>Coluna 02 - Não se adpta</li>
+            <li>Coluna 02 - Não se adpta</li>
+            <li>Coluna 02 - Não se adpta</li>
+        </ul>
+    </div>
+</body>
+</html>
