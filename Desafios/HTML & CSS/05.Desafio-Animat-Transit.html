@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animations e Transitions - Desafio 01, 02, 03, 04 e 05</title>
+  
+  <style>
+    body {
+        padding-left: 10rem;
+    }
+        
+    /* Desafio 01 */
+    .meu-botao {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+  
+    .meu-botao:hover {
+        background-color: #2980b9;
+    }
+  
+    .meu-botao.clicado {
+        background-color: #f1c40f;
+        color: #333;
+    }
+
+    /* Desafio 02 */
+    .elemento {
+        width: 8rem;
+        height: 6rem;
+        background-color: #3498db;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: transform 0.5s ease;
+    }
+  
+    @keyframes deslocar {
+        from {
+        transform: translateX(-100%);
+        }
+        to {
+        transform: translateX(0);
+        }
+    }
+  
+    .elemento.deslocar {
+        animation: deslocar 0.5s forwards;
+    }
+
+    /* Desafio 03 */
+    .passagem {
+        width: 200px;
+        height: 100px;
+        background-color: #3498db;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+  
+    .passagem:hover {
+        background-color: #2ecc71
+    }
+
+    /* Desafio 04 */
+    .botao {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    @keyframes crescer {
+        from {
+          transform: scale(1);
+        }
+        to {
+          transform: scale(1.2);
+        }
+      }
+
+    .botao.crescendo {
+        animation: crescer 0.3s forwards;
+    }
+
+    /* Desafio 05 */
+    .girando {
+        width: 10rem;
+        height: 10rem;
+        background-color: #3498db;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        border-radius: 50%;
+        animation: girar 2s linear infinite;
+    }
+    @keyframes girar {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+    }
+
+  </style>
+</head>
+
+<body>
+    <!-- Desafio 01 -->
+    <p>Desafio 01</p>
+    <span>
+        <div>
+            <button class="meu-botao" onclick="alternarCor()">Click para Alterar a cor</button>
+        </div>
+    </span>
+
+    <!-- Desafio 02 -->
+    <p>Desafio 02</p>
+    <span>
+        <div class="elemento" onclick="iniciarAnimacao()">Clique para mover</div>
+    </span>
+
+    <!-- Desafio 03 -->
+    <p>Desafio 03</p>
+    <span>
+        <div class="passagem">Passe o mouse</div>
+    </span>
+
+    <!-- Desafio 04 -->
+    <p>Desafio 04</p>
+    <span>
+        <div>
+            <button class="botao" onclick="crescer()">Clique para Crescer</button>
+        </div>
+    </span>
+
+    <!-- Desafio 05 -->
+    <p>Desafio 05</p>
+    <span>
+        <div>
+            <div class="girando">Hipnotizando...</div>
+        </div>
+    </span>
+
+
+
+    <!-- ----------JavaScript---------- -->
+    <!-- function alternarCor pertence ao Desafio 01-->
+    <!-- function IniciarAnimacao pertence ao Desafio 02-->
+    <!-- function Crescer pertence ao Desafio 04-->
+    <script>
+        function alternarCor() {
+            var botao = document.querySelector('.meu-botao');
+            var estaClicado = botao.classList.contains('clicado');
+            
+            if (!estaClicado) {
+              botao.classList.add('clicado');
+            } else {
+              botao.classList.remove('clicado');
+            }
+          }
+
+        function iniciarAnimacao() {
+            var elemento = document.querySelector('.elemento');
+            elemento.classList.toggle('deslocar');
+        }
+
+        function crescer() {
+            var botao = document.querySelector('.botao');
+            botao.classList.add('crescendo');
+
+            botao.addEventListener('animationend', function() {
+                botao.classList.remove('crescendo');
+            }, { once: true });
+          }
+    </script>
+</body>
+</html>
