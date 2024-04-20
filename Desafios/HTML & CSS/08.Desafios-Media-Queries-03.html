@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desafio 03 - Media-Queries</title>
+
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            
+            .gallery {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            
+            .gallery-item {
+                margin: 10px;
+            }
+            
+            .gallery-item img {
+                width: 50vh;
+                height: 45vh;
+                object-fit: cover;
+            }
+            
+            @media screen and (max-width: 40vh) {
+                .gallery-item img {
+                    width: 100vh;
+                    height: auto;
+            } }
+  
+        </style>
+    </head>
+<body>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="https://img.freepik.com/fotos-gratis/bela-paisagem-do-mirante-do-boco-do-inferno-em-portugal_181624-47505.jpg?t=st=1713546888~exp=1713550488~hmac=b9f08f77b2b7b82c9c126849b9f1db57c6a0c1fca44d208eeb6033c085033824&w=740" alt="Imagem 1">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://img.freepik.com/fotos-premium/maos-segurando-uma-planta-com-a-palavra-arvore-nela_818261-21381.jpg?w=740" alt="Imagem 2">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://img.freepik.com/fotos-gratis/besta-de-dragao-mitico-no-estilo-anime_23-2151112833.jpg?w=1380&t=st=1713546601~exp=1713547201~hmac=355ced08842731ad5c5ba71e7d5124429f0a8b4f74e038be095911add3029c6f" alt="Imagem 3">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://img.freepik.com/fotos-gratis/3d-renderizado-anjo-alado-guerreiro-de-fundo_1409-5952.jpg?w=1380&t=st=1713546609~exp=1713547209~hmac=aeaab3f384ef142e0934d6c2dc9e5e9c9b50201963670eecb8f89b77f3d2a9f2" alt="Imagem 4">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://img.freepik.com/fotos-gratis/conceito-de-rpa-com-tela-de-toque-de-mao-embacada_23-2149311914.jpg?w=1380&t=st=1713546721~exp=1713547321~hmac=3bb65ae54b23df10911cea575d39de15a712c95d702c5bdec57e01e3456f3df3" alt="Imagem 5">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://img.freepik.com/fotos-premium/ilustracao-do-conceito-de-negocios-de-um-grupo-de-empresarios-caminhando-em-direcao-a-um-foguete-iniciar-o-conceito-de-negocios-generative-ai_208978-1865.jpg?w=1380" alt="Imagem 6">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://img.freepik.com/fotos-gratis/um-robo-com-uma-cabeca-que-diz-robo-nela_1340-38568.jpg?w=740&t=st=1713546769~exp=1713547369~hmac=9c16e9abf147fcf706f4891dc298a6dd82d38a11dd52f0181844733fa827dc41" alt="Imagem 7">
+        </div>
+
+        <div class="gallery-item">
+            <img src="https://img.freepik.com/fotos-gratis/vista-do-animal-leopardo-na-natureza_23-2150374898.jpg?w=740&t=st=1713546807~exp=1713547407~hmac=bc3aa6e6958c3d97d0bcc3d1819266c08efec3bb9d716b522fe457b34c78e15d" alt="Imagem 8">
+        </div>
+    </div>
+</body>
+</html>

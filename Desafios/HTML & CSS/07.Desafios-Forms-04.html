@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio 04 - Forms</title>
+  <style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .formulario {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .campo {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button.btn-enviar {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+  }
+  
+  button.btn-enviar:hover {
+    background-color: #2980b9;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.9);
+    }
+  }
+  
+  .btn-enviar.loading::after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: pulse 1s infinite;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <form class="formulario" id="form1">
+      <h2>Formulário 1</h2>
+      <div class="campo">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+      </div>
+      <button type="submit" class="btn-enviar" onclick="submitForm(this)">Enviar</button>
+    </form>
+  </div>
+
+  <script>
+    function submitForm(button) {
+        button.classList.add('loading');
+        setTimeout(function() {
+          button.classList.remove('loading');
+          console.log('Formulário enviado com sucesso!');
+        }, 3000);
+      }
+  </script>
+  
+</body>
+</html>

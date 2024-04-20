@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsividade - Desafio 01</title>
+  
+  <style>
+    /* Desafio 01 - Cores e Estilos */
+    :root {
+        --cor-primaria: #333;
+        --cor-texto: #fff;
+        --cor-hamburguer: #fff;
+        --cor-botao-inicial: #007bff;
+        --cor-botao-final: #6c757d;
+
+        --cor-degrade-inicio: #4e54c8;
+        --cor-degrade-fim: #8f94fb;
+    }
+
+    /* Desafio de Responsividade */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+      
+    nav {
+      background-color: var(--cor-primaria);
+      color: var(--cor-texto);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+      
+    .menu {
+      list-style: none;
+      display: flex;
+    }
+      
+    .menu li {
+      margin-right: 20px;
+    }
+      
+    .menu li a {
+      text-decoration: none;
+      color: var(--cor-texto);
+    }
+      
+    .hamburger-menu {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+    }
+      
+    .bar {
+      width: 25px;
+      height: 3px;
+      background-color: var(--cor-hamburguer);
+      margin: 3px 0;
+    }
+      
+    .content {
+      padding: 20px;
+    }
+      
+    @media screen and (max-width: 600px) {
+      .menu {
+        display: none;
+      }
+      
+      .hamburger-menu {
+        display: flex;
+      }
+      
+      .content {
+        padding-top: 60px;
+      }
+    }
+
+
+    /* Desafio 02 - Cores e Estilos */
+    .desafio02 {
+        padding: 10px 20px;
+        background: linear-gradient(to right, var(--cor-botao-inicial), var(--cor-botao-final));
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+
+    .desafio02:hover {
+        background: linear-gradient(to right, var(--cor-botao-final), var(--cor-botao-inicial));
+    }
+
+
+    /* Desafio 03 - Cores e Estilos */
+    .desafio03 {
+        padding: 10px 20px;
+        background: linear-gradient(to right, var(--cor-botao-inicial), var(--cor-botao-final));
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    }
+
+    .desafio03:hover {
+        background: linear-gradient(to right, var(--cor-botao-final), var(--cor-botao-inicial));
+    }
+
+
+    /* Desafio 04 - Cores e Estilos */
+    .parallax-section {
+        background-image: url('https://img.freepik.com/fotos-premium/o-majestoso-dragao-mistura-se-com-a-erupcao-vulcanica-contra-um-ceu-dramatico_127746-13748.jpg?w=740');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+    }
+
+
+    /* Desafio 05 - Cores e Estilos */
+    .degrade-section {
+        background: linear-gradient(to bottom right, var(--cor-degrade-inicio), var(--cor-degrade-fim));
+        color: var(--cor-texto);
+        padding: 100px 20px;
+        text-align: center;
+        position: relative;
+    }
+    
+    .degrade-section h2 {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+    
+    .degrade-section p {
+        font-size: 1.2em;
+        opacity: 0.8;
+    }
+    
+    .text-layer {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+    
+    .text-layer h2 {
+        font-size: 3em;
+        margin: 0;
+        color: var(--cor-botao-inicial);
+    }
+    
+    .text-layer p {
+        font-size: 1.5em;
+        margin-top: 20px;
+        color: var(--cor-primaria);
+    }
+    
+    .text-layer::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.7);
+        z-index: -1;
+    }
+
+  </style>
+</head>
+<body>
+  <nav>
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Sobre</a></li>
+      <li><a href="#">Serviços</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+    <div class="hamburger-menu">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </nav>
+    
+  <div class="content">
+    <h1>Hello Word!</h1>
+    <p>Readptei o Desafio de Responsividade 01, assim vocês conseguem entender e adaptar um arquivo pronto para algo maior e melhor</p>
+    
+    <div>
+        <h2>Desafio 01</h2>
+        <p>Os textos estão com as variaveis do CSS no seletor :root para definir o esquema de cores.</p>
+        <p>Utilizei as variáveis CSS para definir as cores do fundo do nav, do texto no nav e do ícone do hamburguer.</p>
+        <p>As variáveis facilitam a personalização do esquema de cores do site.</p>
+        <p>Os valores padrão das variáveis correspondem às cores originais do seu código.</p>
+        <p>Apliquei as variáveis nos elementos relevantes do CSS para garantir que todas as cores sejam consistentes.</p>
+    </div>
+
+    <div>
+        <h2>Desafio 02</h2>
+        <button class="desafio02">Meu Botão</button>
+    </div>
+
+    <div>
+        <h2>Desafio 03</h2>
+        <button class="desafio03">Meu Botão</button>
+        <p>
+            Conseguem visualizar a sombra ao redor do botão?
+        </p>
+    </div>
+
+    <div>
+        <h2>Desafio 04</h2>
+        <div class="parallax-section"></div>
+    </div>
+
+    <div class="degrade-section">
+        <div class="text-layer">
+          <h2>Desafio 05</h2>
+          <p>Este é um exemplo de texto sobre um fundo degradê com camadas.</p>
+          <p>Espero Que tenham gostado desse desafio</p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+        <h2>Mensagem Importante!</h2>
+        <p>Gostaria de agradecer a todo mundo está ajudando a impulsionar meu linkedIn e GitHub</p>
+        <p>Graças a vocês e graças a ajuda de vocês o perfil está alcançando varios patamares</p>
+        <p>Em breve entraremos a uma nova linguagem</p>
+        <p>Mas o proximo e ultimo desafio o tão aguardado Layout Responsivos Avançados</p>
+        <p>Espero muito conseguir realizar esses desafios e ajudar a todo mundo que está utilizando o meu github para tirar algumas dúvidas</p>
+    </div>
+
+
+
+  <script>
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const menu = document.querySelector('.menu');
+
+    hamburgerMenu.addEventListener('click', () => {
+      menu.classList.toggle('show');
+    });
+
+  </script>
+</body>
+</html>
