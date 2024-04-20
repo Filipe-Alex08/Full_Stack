@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsividade - Desafio 03</title>
+  
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: blue;
+    }
+
+    .titulo {
+        text-align: center;
+        color: white;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      overflow: hidden;
+    }
+
+    .card img {
+      width: 100%;
+      height: 40vh;
+      border-bottom: 1px solid #eee;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-title {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    .card-description {
+      color: #666;
+    }
+
+    @media screen and (min-width: 768px) {
+      .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 20px;
+      }
+    }
+
+    .parallax-section {
+        background-image: url('https://www.pokemon.com/static-assets/content-assets/cms2/img/misc/_tiles/spotlight/professor-oak/pcom-spotlight-prof-oak-169.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        width: 100%;
+        height: 100vh;
+    }
+    
+  </style>
+</head>
+<body>
+    <div class="tittle">
+        <h1 class="titulo">Escolha seu Pokemon Inicial</h1>
+    </div>
+    <div class="parallax-section">
+        <div class="container">
+            <div class="card">
+                <img src="https://static.printler.com/cache/7/f/f/2/0/d/7ff20df8acaa19e14eff479373d97523b28d7dc9.jpg" alt="Post 1">
+                <div class="card-content">
+                    <h2 class="card-title">Bulbasaur</h2>
+                    <p class="card-description">Por algum tempo após seu nascimento, ele utiliza os nutrientes que estão contidos na semente em seu dorso para crescer.</p>
+                </div>
+            </div>
+      
+            <div class="card">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a874cba0-5e5c-4b14-ad48-c62ef6e65b4a/de0xfy0-10105914-7ac8-41ec-b098-cc2d6709dc35.jpg/v1/fill/w_900,h_637,q_75,strp/charmander_2_by_joshuadunlop_de0xfy0-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjM3IiwicGF0aCI6IlwvZlwvYTg3NGNiYTAtNWU1Yy00YjE0LWFkNDgtYzYyZWY2ZTY1YjRhXC9kZTB4ZnkwLTEwMTA1OTE0LTdhYzgtNDFlYy1iMDk4LWNjMmQ2NzA5ZGMzNS5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.hpzbPxhTerdjW5uGyPEynpFey2Gh7oB1s0I23cdPLrw" alt="Post 2">
+                <div class="card-content">
+                    <h2 class="card-title">Charmander</h2>
+                    <p class="card-description">A chama em sua cauda mostra a força de sua força vital. Se Charmander estiver fraco, a chama também queimará fracamente.</p>
+                </div>
+            </div>
+      
+            <div class="card">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a874cba0-5e5c-4b14-ad48-c62ef6e65b4a/ddl8fzv-06ddc03c-6d52-4063-b49d-fd2a003bc6d3.jpg/v1/fit/w_828,h_1170,q_70,strp/squirtle_new__by_joshuadunlop_ddl8fzv-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTkyMCIsInBhdGgiOiJcL2ZcL2E4NzRjYmEwLTVlNWMtNGIxNC1hZDQ4LWM2MmVmNmU2NWI0YVwvZGRsOGZ6di0wNmRkYzAzYy02ZDUyLTQwNjMtYjQ5ZC1mZDJhMDAzYmM2ZDMuanBnIiwid2lkdGgiOiI8PTEzNTgifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.MyEf_iSfMqepW1OH_jL8x0MrDfY7IhuIiQQ_YE1rTTc" alt="Post 3">
+                <div class="card-content">
+                    <h2 class="card-title">Squirtle</h2>
+                    <p class="card-description">Após o nascimento, suas costas incha e endurece formando uma concha. Ele espalha uma espuma potente pela boca.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
