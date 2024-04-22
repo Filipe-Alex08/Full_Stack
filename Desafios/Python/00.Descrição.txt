@@ -46,20 +46,20 @@ ________________________________________________________________________________
 5) Faça uma função que receba uma lista de números e retorne a mediana dos números.
 
 _______________________________________________________________________________________________________________________________________________________________________________
-    06. Desafios de Arquivos:
-1) Faça um programa que leia um arquivo texto, conte quantas vezes cada palavra aparece e retorne as 5 palavras mais comuns.
-2) Crie um programa que leia um arquivo CSV, faça algumas operações matemáticas nos dados e salve os resultados em outro arquivo CSV.
-3) Faça um programa que leia um arquivo JSON contendo informações de alunos e retorne a média das notas.
-4) Crie um programa que leia um arquivo XML, extraia informações relevantes e salve em outro formato.
-5) Faça um programa que leia um arquivo Excel, calcule a soma de uma coluna e insira o resultado em outra planilha.
-
-_______________________________________________________________________________________________________________________________________________________________________________
-    07. Desafios de POO:
+    06. Desafios de POO:
 1) Crie uma classe "Produto" com métodos para calcular o preço com desconto e adicionar informações adicionais.
 2) Faça uma classe "Triângulo" que tenha métodos para verificar se é um triângulo válido e calcular a área.
 3) Crie uma classe "Rede Social" que permita adicionar amigos, postar mensagens e ver o feed de notícias.
 4) Faça uma classe "Baralho" que possa embaralhar as cartas e distribuir mãos.
 5) Crie um programa que simule um sistema de compra online utilizando as classes que você criou.
+
+_______________________________________________________________________________________________________________________________________________________________________________
+    07. Desafios de Arquivos:
+1) Faça um programa que leia um arquivo texto, conte quantas vezes cada palavra aparece e retorne as 5 palavras mais comuns.
+2) Crie um programa que leia um arquivo CSV, faça algumas operações matemáticas nos dados e salve os resultados em outro arquivo CSV.
+3) Faça um programa que leia um arquivo JSON contendo informações de alunos e retorne a média das notas.
+4) Crie um programa que leia um arquivo XML, extraia informações relevantes e salve em outro formato.
+5) Faça um programa que leia um arquivo Excel, calcule a soma de uma coluna e insira o resultado em outra planilha.
 
 _______________________________________________________________________________________________________________________________________________________________________________
     08. Desafios de APIs e Web:
